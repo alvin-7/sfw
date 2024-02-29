@@ -1,9 +1,9 @@
 # NAME: AI, For example: chatgpt,claude
 # AUTHOR: alvin-7
 # REPO: https://github.com/alvin-7/sfw
-# UPDATED: 2023-12-19 13:37:31
-# DOMAIN-SUFFIX: 3
-# TOTAL: 3
+# UPDATED: 2024-02-29 09:36:31
+# DOMAIN-SUFFIX: 5
+# TOTAL: 5
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,bard.google.com
