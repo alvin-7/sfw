@@ -5,7 +5,7 @@ proxy-providers:
     url: "https://xxx"
     path: ./proxies/airport.yaml
     interval: 86400
-    filter: "🇭🇰|🇹🇼|🇯🇵|🇰🇷|🇸🇬|🇺🇸"
+    filter: "^(?!.*(?:尝试|欢迎|剩余|套餐|群组|WWW)).*$"
     health-check:
       enable: true
       url: https://www.gstatic.com/generate_204
