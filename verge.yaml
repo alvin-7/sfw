@@ -152,6 +152,11 @@ rule-providers:
     interval: 86400
 
 rules:
+  # 自定义规则
+  - DOMAIN,alvin7.eu.org,🔒 私有网络
+  - IP-CIDR,192.168.2.0/24,🔒 私有网络
+  - IP-CIDR,10.8.0.0/24,🔒 私有网络
+  # 其他
   - RULE-SET,ads,🛑 广告拦截
   - RULE-SET,applications,🖥️ 直连软件
   - RULE-SET,private,🔒 私有网络
